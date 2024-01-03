@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_sky.mk
+    $(LOCAL_DIR)/droidx_sky.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_sky-eng \
-    aosp_sky-userdebug \
-    aosp_sky-user
+    droidx_sky-eng \
+    droidx_sky-userdebug \
+    droidx_sky-user

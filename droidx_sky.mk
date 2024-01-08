@@ -15,6 +15,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit common DroidX-UI configurations
 $(call inherit-product, vendor/droidx/config/common_full_phone.mk)
 
+# DroidX stuff
+DROIDX_BUILD_TYPE := OFFICIAL
+DROIDX_GAPPS := false
+
 # Inherit device configurations
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 

@@ -408,7 +408,7 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
-    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/droidx/interfaces/power-libperfmgr \
     hardware/google \
     hardware/google/interfaces \
     hardware/google/pixel \
@@ -536,4 +536,4 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # Signed
--include vendor/lineage-priv/keys/keys.mk
+-include vendor/droidx-priv/keys/keys.mk

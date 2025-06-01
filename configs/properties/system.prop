@@ -68,3 +68,8 @@ persist.vendor.ssr.enable_ramdumps=0
 # WiFi display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
+# DroidX
+ro.droidx.maintainer=kAiF
+ro.droidx.chipset=Snapdragon™ 4 Gen 2
+ro.droidx.display_resolution=1080 x 2460 , 90Hz

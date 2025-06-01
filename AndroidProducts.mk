@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sky.mk
+    $(LOCAL_DIR)/droidx_sky.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_sky-bp1a-eng \
-    lineage_sky-bp1a-userdebug \
-    lineage_sky-bp1a-user
+    droidx_sky-bp1a-eng \
+    droidx_sky-bp1a-userdebug \
+    droidx_sky-bp1a-user
